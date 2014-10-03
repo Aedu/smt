@@ -330,6 +330,9 @@ sub request
     }
 }
 
+#
+# only called for file:// urls
+#
 sub request_file
 {
     my $self     = shift;
